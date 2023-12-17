@@ -1,0 +1,56 @@
+# Assignments Descriptions:
+
+---------------------------------
+
+Assignment 1: Implementing ANN architecture for Classifying the CIFAR10 dataset
+In this assignment, you will implement your own neural networks for classifying the CIFAR10 dataset.
+
+---------------------------------
+
+Assignment 2: Implementing Convolutional Neural Network
+In this assignment, you will implement a three-layer Convolutional Neural Network (CNN) using the TensorFlow and Keras API to perform a classification problem on the CIFAR10 dataset. You will compare performance of the CNN model with the FCN. 
+
+---------------------------------
+
+Assignment 3: Generative Models
+This assignment focuses on automatically generating the two main structure of data that you will mostly encounter in your journey as a machine learning / data scientist - spatial (images) and sequential data. While the sequential data part is optional, you must implement the end-to-end of part I and II for full credit. Recently, deepfakes have become very popular in the deep learning community. In this assignment you will implement Deep Convolutional Generative Adversarial Networks (DCGAN) for image generation.
+
+---------------------------------
+
+Codeathon 1: Image Classification
+Directions:
+For this codeathon, you will build an image classification model using Tensorflow and the Keras. You will compare performance across multiple deep learning models to get the best performance. Leveraging this tutorial: Image classificationLinks to an external site. you will start with a basic Keras model using the Sequential API; compile and train the model and visualize the training results. You will then test the model on a separate test set. You will apply techniques such as data augmentation and dropout to improve the performance of the model. For the final step you will leverage transfer learning by selecting other pretrained models and use transfer learning to ...
+
+The tutorial follows a basic machine learning workflow:
+
+Examine and understand data.
+Build an input pipeline.
+Build the model.
+Train the model
+Test the model.
+Improve the model and repeat the process.
+
+---------------------------------
+
+Codeathon 2: In this codeathon, you will train a deep learning model to perform a text classification task on the popular imdb dataset that contains over 50k movie reviews from the Internet Movie DatabaseLinks to an external site.. Starting with this tutorial: Text classificationLinks to an external site. first you will train a basic sentiment analysis model to classify movie reviews as positive or negative based on the text of the review. This tutorial uses the tf.keras.Sequential api to illustrates a binary-or two-class-classification problem. 
+
+The tutorial also follows a basic machine learning workflow:
+
+Examine and understand data: Load the dataset.
+Build an input pipeline: Prepare and configure the dataset for training.
+Build the model: Construct a model architecture or apply an existing architecture.
+Train the model: Determine loss function & optimizer then train.
+Evaluate the model.
+Improve the model and repeat the process.
+Finally, improve the performance of the model by either changing the model architecture or through more advanced networks (e.g. LSTMLinks to an external site., standard TransformerLinks to an external site. or Switch TransformersLinks to an external site.). You model should perform significantly better than the models described in the tutorials. Show the model accuracy and explain your improvement.
+
+---------------------------------
+
+Codeathon 3: Sequence (Text) Generation using Generative Pre-Trained (GPT) Models
+In this project, you will use the KerasNLP API to build a scaled down Generative Pre-Trained (GPT) model. GPT is a Transformer-based model that allows you to generate sophisticated text and images from a prompt. Using this tutorial guide - GPT text generationLinks to an external site. - as a starting point you will train the model on the simplebooks-92Links to an external site. corpus, which is a dataset made from several novels. 
+
+Next you will load a pre-trained Large Language Model (LLM) - GPT-2 modelLinks to an external site. (originally invented by OpenAI), finetune it to a specific text style, and generate text based on users' input (also known as prompt). Large language models (LLMs) are a type of machine learning models that are trained on a large corpus of text data to generate outputs for various natural language processing (NLP) tasks, such as text generation, question answering, and machine translation. Generative LLMs are typically based on deep learning neural networks, such as the Transformer architectureLinks to an external site. invented by Google researchers in 2017, and are trained on massive amounts of text data, often involving billions of words. These models, such as Google LaMDALinks to an external site. and PaLMLinks to an external site., are trained with a large dataset from various data sources which allows them to generate output for many tasks. The core of Generative LLMs is predicting the next word in a sentence, often referred as Causal LM Pretraining. In this way LLMs can generate coherent text based on user prompts. For a more pedagogical discussion on language models, you can refer to the Stanford CS324 LLM classLinks to an external site..
+
+The KerasNLP API provides a number of pre-trained models, such as Google BertLinks to an external site. and GPT-2Links to an external site.. You can see the list of models available in the KerasNLP repositoryLinks to an external site..
+
+You will experiment with at least five (5) pretrained models and fine-tune the models on the Reddit dataset to update its parameters. Generate and evaluate outputs using different pretrained models.
